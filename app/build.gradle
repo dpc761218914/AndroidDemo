@@ -32,5 +32,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:26+'
     /*按钮样式使用https://github.com/navasmdc/MaterialDesignLibrary风格*/
     compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    /*时间选择器https://github.com/Bigkoo/Android-PickerView*/
+    compile 'com.contrarywind:Android-PickerView:4.1.6'
     testCompile 'junit:junit:4.12'
 }

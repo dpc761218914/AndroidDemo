@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private Button recycleview_btn;
     private Button input_btn;
+    private Button timepicker_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     public void initView(){
         recycleview_btn =(Button)findViewById(R.id.recycleview_btn);
         input_btn =(Button)findViewById(R.id.input_btn);
+        timepicker_btn=(Button)findViewById(R.id.timepicker_btn);
+
     }
 
     public void initEvent(){
@@ -35,6 +38,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(MainActivity.this,InputActivity.class);
+                startActivity(intent);
+            }
+        });
+        timepicker_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(MainActivity.this,TimepickerActivity.class);
                 startActivity(intent);
             }
         });

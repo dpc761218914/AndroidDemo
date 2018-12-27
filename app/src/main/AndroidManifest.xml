@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".InputActivity">
         </activity>
+        <activity android:name=".TimepickerActivity">
+        </activity>
     </application>
 
 </manifest>
