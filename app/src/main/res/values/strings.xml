@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="recycleview_btn">recycleView按钮</string>
+    <string name="input_btn">输入表单页面</string>
+</resources>
